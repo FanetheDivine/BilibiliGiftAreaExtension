@@ -5,7 +5,10 @@ style.innerHTML =
         bottom:0px !important;
     }
     #web-player__bottom-bar__container{
-        display:none;
+        display:none !important;
+    }
+    .announcement-wrapper{
+        display:none !important;
     }
 `
 document.documentElement.append(style)
